@@ -81,7 +81,7 @@ const Navbar = () => {
         </Search>
         {currentUser ? (
           <User>
-            <Avatar />
+            <Avatar src={currentUser.img} />
             {currentUser.name}
           </User>
         ) : (
